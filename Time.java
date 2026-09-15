@@ -14,10 +14,10 @@ public class Time {
 		int currentsecond = 39; 
 		
 		System.out.print("Number of seconds since midnight" + ": "); 
-		System.out.println(hour * 3600 + minute * 60 + second); 
+		System.out.println((hour * 3600 + minute * 60 + second) + " seconds"); 
 		
 		System.out.print("Number of second remaining in the day" + ": "); 
-		System.out.println(totalseconds - (hour * 3600 + minute * 60 + second)); 
+		System.out.println((totalseconds - (hour * 3600 + minute * 60 + second)) + " seconds"); 
 		
 		System.out.print("Percentage of the day that has passed" + ": "); 
 		System.out.println(percent + "%"); 
