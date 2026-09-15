@@ -23,7 +23,7 @@ public class Time {
 		System.out.println(percent + "%"); 
 		
 		System.out.print("Seconds since I started working on this exercise" + ": "); 
-		System.out.print(((currenthour * 3600 + currentminute * 60 + currentsecond) - (hour * 3600 + minute * 60 + second)) + " seconds"); 
+		System.out.println(((currenthour * 3600 + currentminute * 60 + currentsecond) - (hour * 3600 + minute * 60 + second)) + " seconds"); 
 		
 		}
 		}
