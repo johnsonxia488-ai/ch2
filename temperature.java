@@ -8,7 +8,7 @@ public class temperature {
 		Scanner in = new Scanner(System.in); 
 		System.out.print("Enter in a celcius degree:  "); 
 		double inputValue = in.nextDouble(); 
-		double Celcius    = inputValue * CELCIUS_PER_FAHRENHEIT + 32; 
+		double Celcius = inputValue * CELCIUS_PER_FAHRENHEIT + 32; 
 		
 		System.out.print(Celcius);
 		
