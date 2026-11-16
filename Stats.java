@@ -1,4 +1,4 @@
-public static class Stats.java
+public class Stats {
  public static void main(String[] args) {
 	 if (args.length == 0) {
 		 System.err.println(""); 
@@ -20,11 +20,11 @@ public static class Stats.java
 		 min = value; 	 
     }
 }
-double average = double sum / count; 
-System.out.println("Count" + count);
-System.out.println("Sum" + sum); 
-System.out.println("Min" + min); 
-Systen.out.println("Max" + max); 
-System.out.println("Average" + average); 
+double average = (double) sum / count; 
+System.out.println("Count: " + count);
+System.out.println("Sum: " + sum); 
+System.out.println("Min: " + min); 
+System.out.println("Max: " + max); 
+System.out.printf("Average: %.2f%n", average); 
 }
 }
